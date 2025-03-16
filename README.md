@@ -120,58 +120,60 @@ Google Cloud Run - to execute a python script
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/working_other.png)
 
- 
-**How it Works:**
-1. A user uploads a file to the Google Storage Bucket (document, image, video, or other type of file)
-2. EventArc triggers to notify Google Cloud Run that a file has been uploaded
-3. Cloud Run will run and execute the main.py python script
-4. The python script tells the file which folder to go into based on the file type (Documents, Images, Videos, or Others)
-5. The file will move into the appropriate folder category automatically 
+## How it Works
 
-**File Categorization:**
-The Python script categorizes files based on their extensions and moves them into the appropriate folders inside the Google Cloud Storage bucket.
+1. A user uploads a file to the **Google Storage Bucket** (document, image, video, or other type of file).  
+2. **EventArc** triggers to notify **Google Cloud Run** that a file has been uploaded.  
+3. **Cloud Run** executes the `main.py` Python script.  
+4. The Python script determines the correct folder for the file based on its type:  
+   - **Documents** (PDF, TXT, DOCX, etc.)  
+   - **Images** (JPG, PNG, GIF, etc.)  
+   - **Videos** (MP4, MOV, AVI, etc.)  
+   - **Others** (Uncategorized files)  
+5. The file is automatically moved into the appropriate folder category.
+   
+
+## File Categorization  
+
+The Python script categorizes files based on their extensions and moves them into the appropriate folders inside the **Google Cloud Storage bucket**.  
+
+- **Documents:** PDF, TXT, DOCX, etc.  
+- **Images:** JPG, PNG, GIF, etc.  
+- **Videos:** MP4, MOV, AVI, etc.  
+- **Others:** Any files that do not fit into the above categories. 
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/file_types.jpg)
 
-**Example Use Case:**
-_Automated File Management for a Manufacturing Company_
 
-_Problem:_ 
-A machine manufacturing company generates thousands of files related to the machines they build. These include:
+## Example Use Case: Automated File Management for a Manufacturing Company  
 
-Images & schematics (layouts, electrical/hydraulic designs)
-Documents (bills of materials, regulatory paperwork)
-Videos (production and instructional content)
-Data files (energy consumption, MES integration, analytics)
+### Problem  
+A machine manufacturing company generates thousands of files related to the machines they build. These include:  
 
-Each machine can have hundreds of files, and with 10,000+ machines sold annually, manually organizing these files is overwhelming. Misplacing documents can lead to production delays, compliance risks, and inefficiencies.
+- **Images & schematics** (layouts, electrical/hydraulic designs)  
+- **Documents** (bills of materials, regulatory paperwork)  
+- **Videos** (production and instructional content)  
+- **Data files** (energy consumption, MES integration, analytics)  
 
-_Solution:_
-An automated file organization system using Google Cloud Run and Google Storage Buckets can:
-Detect new file uploads using EventArc triggers
-Categorize files automatically based on their type
-Move files to correct folders (e.g., Images, Schematics, Videos, Regulatory Docs)
-Ensure consistency and easy retrieval for engineers, compliance teams, and sales staff
+Each machine can have hundreds of files, and with **10,000+ machines sold annually**, manually organizing these files is overwhelming. Misplacing documents can lead to **production delays, compliance risks, and inefficiencies**.  
 
-_Example Flow:_
-A production engineer uploads a machine schematic (.jpg) → stored in "Schematics" folder
-A quality control manager uploads a regulatory PDF → stored in "Compliance Documents" folder
-A marketing team uploads a product demo video → stored in "Marketing Videos" folder
+### Solution  
+An **automated file organization system** using **Google Cloud Run** and **Google Storage Buckets** can:  
 
-_Impact:_
-Saves 100s of manual work hours per year
-Reduces errors & lost files
-Boosts efficiency across teams
+✅ Detect new file uploads using **EventArc triggers**  
+✅ **Categorize files** automatically based on their type  
+✅ Move files to correct folders (e.g., **Images, Schematics, Videos, Regulatory Docs**)  
+✅ Ensure **consistency and easy retrieval** for engineers, compliance teams, and sales staff  
 
+### Example Flow  
+- A **production engineer** uploads a **machine schematic (.jpg)** → stored in **"Schematics"** folder  
+- A **quality control manager** uploads a **regulatory PDF** → stored in **"Compliance Documents"** folder  
+- A **marketing team** uploads a **product demo video** → stored in **"Marketing Videos"** folder  
 
-**Future Improvements:**
-
-1. Add more folders to the Google Storage Bucket so that more file types are supported, suck as spreadsheets (.csv, .xlsx)
-2. Improve error handling & logging - ensure errors are more easily identifiable for troubleshooting
-3. Add user customization so that users can define their own file types instead of predefined ones
-4. Optimize Performance- improve the script to handle larger file types
-5. Integrate Google Cloud Vision AI (for Images) and Google NLP (Natural Language Processing) (for documents) for smarter document classifications
-
+### Impact  
+🚀 **Saves 100s of manual work hours per year**  
+📂 **Reduces errors & lost files**  
+⚡ **Boosts efficiency across teams**  
 
 ## Author  
 
