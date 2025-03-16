@@ -48,17 +48,19 @@ Google Cloud Run - to execute a python script
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/Cloud_run_service.png)
 
-E. Connect Event Trigger
--EventArc will ensure Cloud Run is triggered whenever a file is uploaded
--Click Add Trigger and click Cloud Storage as the Event Provider
--In the EventArc window, change the trigger name: file-organizer-trigger
--Trigger Type: Google Sources
--Event Provider: Cloud Storage (confirm again)
--Event Type: google.cloud.storage.object.v1.finalized
--Bucket: Select tony-file-organizer-source (bucket created in Step 2)
--Service Account: Default compute service account
-Service Path URL: /
-F. Click Create
+**E. Connect Event Trigger**  
+   - EventArc will ensure Cloud Run is triggered whenever a file is uploaded.  
+   - Click **"Add Trigger"** and select **Cloud Storage** as the Event Provider.  
+   - In the **EventArc** window, configure the following settings:  
+     - **Trigger Name:** `file-organizer-trigger`  
+     - **Trigger Type:** Google Sources  
+     - **Event Provider:** Cloud Storage (confirm again)  
+     - **Event Type:** `google.cloud.storage.object.v1.finalized`  
+     - **Bucket:** Select `tony-file-organizer-source` (bucket created in Step 2)  
+     - **Service Account:** Default Compute Service Account  
+     - **Service Path URL:** `/`  
+
+**F. Click "Create"**  
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/step%203_completed%20trigger.png)
 
