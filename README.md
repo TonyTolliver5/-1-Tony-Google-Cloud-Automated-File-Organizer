@@ -173,13 +173,11 @@ Boosts efficiency across teams
 5. Integrate Google Cloud Vision AI (for Images) and Google NLP (Natural Language Processing) (for documents) for smarter document classifications
 
 
-**Author:**
+## Author  
 
-Anthony (Tony) Tolliver
-Tech Sales & AI/Cloud Enthusiast | Passionate about leveraging AI to drive cloud innovation & automation
+**Anthony (Tony) Tolliver**  
+**Tech Sales & AI/Cloud Enthusiast** | Passionate about leveraging AI to drive cloud innovation & automation  
 
-Github: https://github.com/TonyTolliver5
-
-LinkedIn: [linkedin.com/in/anthony-tolliver-1b9b167b](https://www.linkedin.com/in/anthony-tolliver-1b9b167b)
-
-Personal: AnthonyTolliver.Net
+- **GitHub:** [github.com/TonyTolliver5](https://github.com/TonyTolliver5)  
+- **LinkedIn:** [linkedin.com/in/anthony-tolliver-1b9b167b](https://www.linkedin.com/in/anthony-tolliver-1b9b167b)  
+- **Personal Website:** [AnthonyTolliver.Net](https://AnthonyTolliver.Net)  
