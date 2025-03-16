@@ -44,6 +44,7 @@ D. Set the Following:
 -Authentication: Allow all Traffic
 
 
+
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/Cloud_run_service.png)
 
 E. Connect Event Trigger
