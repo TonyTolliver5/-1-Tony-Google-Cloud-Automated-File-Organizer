@@ -11,7 +11,7 @@ Python- script to automatically move files into correct folders based on file ty
 Google Cloud Run - to execute a python script
 
 **Architecture Diagram:** 
-https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/architecture%20diagram%20png%20file.png
+![Arrchitecture Diagram] (https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/architecture%20diagram%20png%20file.png)
 
 **Set-Up and Deployment:**
 
