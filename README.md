@@ -19,26 +19,23 @@ Google Cloud Run - to execute a python script
 **Step 1:** Sign into Google Cloud and create a project to work on.
 
 ### Step 2: Create a Cloud Storage Bucket  
-
-1. **This bucket will be a source bucket where the files will be uploaded and processed by Cloud Run.**  
-2. **Navigate to Cloud Storage.**  
-3. **Click "Create Bucket".**  
-4. **Set the following:**  
+**A.** *This bucket will be a source bucket where the files will be uploaded and processed by Cloud Run.*  
+**B.** *Navigate to Cloud Storage.*  
+**C.** *Click "Create Bucket".*  
+**D.** *Set the following:*  
    - **Bucket Name:** `tony-file-organizer-source`  
    - **Storage Class:** Standard  
-   - **Location:** Multi-Region (United States) *(The location of this bucket must match the location of the Cloud Run app to avoid errors!)*  
+   - **Location:** *Multi-Region (United States)* *(The location of this bucket must match the location of the Cloud Run app to avoid errors!)*  
    - **Access Control:** Uniform  
-5. **Click "Create".**
-
+**E.** *Click "Create".*
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/sep%201_finished%20bucket.png)
 
 
 ### Step 3: Create a Cloud Run Service  
-
-A. **Enter the Google Cloud Console.**  
-B. **Navigate to Google Cloud Run.**  
-C. **Click "Create a Service" or "Write a Function".**  
-D. **Set the following:**  
+**A.** *Enter the Google Cloud Console.*  
+**B.** *Navigate to Google Cloud Run.*  
+**C.** *Click "Create a Service" or "Write a Function".*  
+**D.** *Set the following:*  
    - **Service Name:** `tony-file-organizer-app`  
    - **Deployment Platform:** Managed  
    - **Region:** `us-central1 (Iowa)` *(Must be compatible with the bucket's Multi-Region setting: United States.)*  
