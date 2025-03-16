@@ -89,7 +89,7 @@ I. Fix any errors. (In the error below, I had a problem with the main.py and the
 
 J. Save and redeploy. There should be all green checkmarks and no error logs if successful
 
-![Image](https://github.com/user-attachments/assets/b41c7179-8ca3-45fc-a7d4-37b3f1d72080)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/successful_deployment.jpg)
 
 **Step 5: Test the File Organizer**
 A. Navigate to Cloud Storage and click Buckets
@@ -120,7 +120,7 @@ F. Repeat steps D and E for video files, image files, and others. Ensure they au
 **File Categorization:**
 The Python script categorizes files based on their extensions and moves them into the appropriate folders inside the Google Cloud Storage bucket.
 
-![Image](https://github.com/user-attachments/assets/69517b54-59cf-4acc-a5e5-cccdc607ad17)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/file_types.jpg)
 
 **Example Use Case:**
 _Automated File Management for a Manufacturing Company_
