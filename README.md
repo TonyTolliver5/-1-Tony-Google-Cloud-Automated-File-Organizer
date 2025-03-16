@@ -64,12 +64,13 @@ Google Cloud Run - to execute a python script
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/step%203_completed%20trigger.png)
 
-**Step 4:** Upload the Python Script
-A. We need to write and deploy a python scrip that will organize the uploaded files into the correct folder
-B. Inside of the tony-file-organizer-app, navigate to the Source
-C. On the lefthand side, move to the main.py
-D. Delete all of the code in main.py
-E. Paste the python script below:
+### Step 4: Upload the Python Script
+
+**A.** We need to write and deploy a Python script that will organize the uploaded files into the correct folder.  
+**B.** Inside of the `tony-file-organizer-app`, navigate to the **Source**.  
+**C.** On the left-hand side, move to **main.py**.  
+**D.** Delete all of the code in `main.py`.  
+**E.** Paste the Python script below:  
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/python_screenshot_script_20.jpg)
 
