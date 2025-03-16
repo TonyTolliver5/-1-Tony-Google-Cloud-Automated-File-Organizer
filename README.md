@@ -12,7 +12,7 @@ Google Cloud Run - to execute a python script
 
 **Architecture Diagram:** 
 
-![Architecture Diagram] (https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/architecture%20diagram%20png%20file.png)
+![Architecture Diagram](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/main/architecture_file_png.png)
 
 **Set-Up and Deployment:**
 
