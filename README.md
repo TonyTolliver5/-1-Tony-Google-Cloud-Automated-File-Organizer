@@ -1,20 +1,25 @@
-**Project Title:** 
-(1) Tony's Google Cloud Automated File Organizer
+# (1) Tony's Google Cloud Automated File Organizer  
 
-**Project Overview:** 
-This project automatically organizes files uploaded to a Google Cloud Storage bucket by sorting them into pre-existing folders based on file type. It uses a Google Cloud Run python script and Eventarc triggers to detect new file uploads and move them accordingly.
+## Project Overview  
+This project **automatically organizes files** uploaded to a **Google Cloud Storage bucket** by sorting them into pre-existing folders based on file type. It uses a **Google Cloud Run Python script** and **EventArc triggers** to detect new file uploads and move them accordingly.  
 
-**Technology Used:** 
-Google Cloud Storage - to upload, categorize, and store files
-EventArc - to trigger Google Cloud Run when a file is uploaded
-Python- script to automatically move files into correct folders based on file type
-Google Cloud Run - to execute a python script
+## Technology Used  
+- **Google Cloud Storage** – Upload, categorize, and store files  
+- **EventArc** – Trigger Google Cloud Run when a file is uploaded  
+- **Python** – Script to automatically move files into the correct folders based on file type  
+- **Google Cloud Run** – Execute the Python script  
 
-**Architecture Diagram:** 
+## Architecture Diagram  
 
 ![Architecture Diagram](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/main/architecture_file_png.png)
 
-**Set-Up and Deployment:**
+## Set-Up and Deployment  
+
+### Prerequisites  
+Before deploying this project, ensure you have:  
+- A **Google Cloud account** with billing enabled  
+- The **Google Cloud CLI** installed  
+- Basic knowledge of **Google Cloud Storage, Cloud Run, and Python**
 
 ### Step 1: Sign into Google Cloud  
 **A.** Create a project to work on.
