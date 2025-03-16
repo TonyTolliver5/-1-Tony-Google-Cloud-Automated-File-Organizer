@@ -57,7 +57,7 @@ E. Connect Event Trigger
 Service Path URL: /
 F. Click Create
 
-![Image](https://github.com/user-attachments/assets/1da04704-eae9-4c03-8128-8af553df2ec0)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/step%203_completed%20trigger.png)
 
 **Step 4:** Upload the Python Script
 A. We need to write and deploy a python scrip that will organize the uploaded files into the correct folder
