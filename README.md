@@ -99,12 +99,16 @@ D. Upload a document (pdf)
 E. Click the document folder to ensure the pdf automatically moved to the document folder. 
 F. Repeat steps D and E for video files, image files, and others. Ensure they automatically moved to the correct folders
 
+
 ![Image](https://github.com/user-attachments/assets/7ec8ceaa-d306-4bd9-846d-40ae68d9b217)
+
 
 ![Image](https://github.com/user-attachments/assets/698c4e93-cf3a-4386-b6ef-eb88644ed8ed)
 
+
 ![Image](https://github.com/user-attachments/assets/8947f436-8976-4365-b71b-25e94e3ac675)
- 
+
+ 
 **How it Works:**
 1. A user uploads a file to the Google Storage Bucket (document, image, video, or other type of file)
 2. EventArc triggers to notify Google Cloud Run that a file has been uploaded
