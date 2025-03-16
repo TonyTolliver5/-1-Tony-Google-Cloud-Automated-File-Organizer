@@ -33,16 +33,17 @@ Google Cloud Run - to execute a python script
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/sep%201_finished%20bucket.png)
 
 
-**Step 3:** Create a Cloud Run Service
-A. Enter the Google Cloud Consol
-B. Navigate to Google Cloud Run
-C. Click Create a Service or Write a Function
-D. Set the Following:
--Service Name: tony-file-organizer-app
--Deployment Platform: Managed
--Region: us-central1 (Iowa) - this will be compatible with the bucket Multi-Region (United States)
--Runtime: Python 3.12 (latest version)
--Authentication: Allow all Traffic
+### Step 3: Create a Cloud Run Service  
+
+A. **Enter the Google Cloud Console.**  
+B. **Navigate to Google Cloud Run.**  
+C. **Click "Create a Service" or "Write a Function".**  
+D. **Set the following:**  
+   - **Service Name:** `tony-file-organizer-app`  
+   - **Deployment Platform:** Managed  
+   - **Region:** `us-central1 (Iowa)` *(Must be compatible with the bucket's Multi-Region setting: United States.)*  
+   - **Runtime:** Python 3.12 (latest version)  
+   - **Authentication:** Allow all Traffic 
 
 
 
