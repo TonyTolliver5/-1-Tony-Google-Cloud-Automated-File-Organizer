@@ -78,9 +78,11 @@ G. Paste this code below:
 [View Requirements.txt] (https://github.com/TonyTolliver5/Anthony-Reprository/blob/main/requirements.txt)
 
 H. Click save and redeploy
+
 I. Fix any errors. (In the error below, I had a problem with the main.py and the requirements.txt. After troubleshooting, I updated with files above)
 
 ![Image](https://github.com/user-attachments/assets/362de4cb-8f36-4d01-9c99-70258034674d)
+
 
 J. Save and redeploy. There should be all green checkmarks and no error logs if successful
 
