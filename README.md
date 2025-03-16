@@ -155,6 +155,9 @@ Author:
 
 Anthony (Tony) Tolliver
 Tech Sales & AI/Cloud Enthusiast | Passionate about leveraging AI to drive cloud innovation & automation
+
 Github: https://github.com/TonyTolliver5
+
 LinkedIn: [linkedin.com/in/anthony-tolliver-1b9b167b](https://www.linkedin.com/in/anthony-tolliver-1b9b167b)
+
 Personal: AnthonyTolliver.Net
