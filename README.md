@@ -84,7 +84,7 @@ H. Click save and redeploy
 I. Fix any errors. (In the error below, I had a problem with the main.py and the requirements.txt. After troubleshooting, I updated with files above)
 
 
-![Image](https://github.com/user-attachments/assets/362de4cb-8f36-4d01-9c99-70258034674d)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/error.png)
 
 
 J. Save and redeploy. There should be all green checkmarks and no error logs if successful
@@ -101,13 +101,13 @@ F. Repeat steps D and E for video files, image files, and others. Ensure they au
 
 
 
-![Image](https://github.com/user-attachments/assets/7ec8ceaa-d306-4bd9-846d-40ae68d9b217)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/working_document.png)
 
 
-![Image](https://github.com/user-attachments/assets/698c4e93-cf3a-4386-b6ef-eb88644ed8ed)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/working_image.png)
 
 
-![Image](https://github.com/user-attachments/assets/8947f436-8976-4365-b71b-25e94e3ac675)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/working_other.png)
 
  
 **How it Works:**
