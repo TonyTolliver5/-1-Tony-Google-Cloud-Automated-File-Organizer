@@ -149,7 +149,7 @@ Boosts efficiency across teams
 3. Add user customization so that users can define their own file types instead of predefined ones
 4. Optimize Performance- improve the script to handle larger file types
 5. Integrate Google Cloud Vision AI (for Images) and Google NLP (Natural Language Processing) (for documents) for smarter document classifications
--  
+
 
 Author:
 
