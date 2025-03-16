@@ -16,7 +16,8 @@ Google Cloud Run - to execute a python script
 
 **Set-Up and Deployment:**
 
-**Step 1:** Sign into Google Cloud and create a project to work on.
+### Step 1: Sign into Google Cloud  
+**A.** *Create a project to work on.*
 
 ### Step 2: Create a Cloud Storage Bucket  
 **A.** *This bucket will be a source bucket where the files will be uploaded and processed by Cloud Run.*  
