@@ -13,6 +13,8 @@ Google Cloud Run - to execute a python script
 **Architecture Diagram:** 
 ![Image](https://github.com/user-attachments/assets/3e948cf9-dce6-45aa-b4f0-da25589f11f4)
 
+https://github.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/blob/main/architecture_project%201_automatic%20file%20organizer_google%20cloud.drawio
+
 **Set-Up and Deployment:**
 
 **Step 1:** Sign into Google Cloud and create a project to work on.
