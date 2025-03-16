@@ -43,7 +43,7 @@ D. Set the Following:
 -Authentication: Allow all Traffic
 
 
-![Image](https://github.com/user-attachments/assets/c5f1c64e-013d-4101-b915-cfcf58b2e3b8)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/Cloud_run_service.png)
 
 E. Connect Event Trigger
 -EventArc will ensure Cloud Run is triggered whenever a file is uploaded
