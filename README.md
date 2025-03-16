@@ -100,6 +100,7 @@ E. Click the document folder to ensure the pdf automatically moved to the docume
 F. Repeat steps D and E for video files, image files, and others. Ensure they automatically moved to the correct folders
 
 
+
 ![Image](https://github.com/user-attachments/assets/7ec8ceaa-d306-4bd9-846d-40ae68d9b217)
 
 
