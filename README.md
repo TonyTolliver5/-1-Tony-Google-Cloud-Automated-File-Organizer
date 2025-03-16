@@ -66,7 +66,7 @@ C. On the lefthand side, move to the main.py
 D. Delete all of the code in main.py
 E. Paste the python script below:
 
-![Image](https://github.com/user-attachments/assets/26f54340-2668-4e6d-9021-02c582c9d2cd)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/step_4_python_script.png)
 
 [View full main.py] (https://github.com/TonyTolliver5/Anthony-Reprository/blob/main/main.py)
 
