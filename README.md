@@ -29,7 +29,7 @@ D. Set the Following:
 -Access Control: Uniform
 E. Click Create
 
-![Image](https://github.com/user-attachments/assets/33407522-4133-4634-9ab5-c0f605a6d2c5)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/sep%201_finished%20bucket.png)
 
 **Step 3:** Create a Cloud Run Service
 A. Enter the Google Cloud Consol
