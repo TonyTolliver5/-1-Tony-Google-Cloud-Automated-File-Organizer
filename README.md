@@ -76,34 +76,41 @@ Google Cloud Run - to execute a python script
 
 [View full main.py] (https://github.com/TonyTolliver5/Anthony-Reprository/blob/main/main.py)
 
-F. Go to the requirements.txt source code
-G. Paste this code below:
+**F.** Go to the `requirements.txt` source code.  
+**G.** Paste the following code below:  
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/requirements_image.jpg)
 
 [View Requirements.txt] (https://github.com/TonyTolliver5/Anthony-Reprository/blob/main/requirements.txt)
 
-H. Click save and redeploy
+**H.** Click "Save and Redeploy".  
 
-I. Fix any errors. (In the error below, I had a problem with the main.py and the requirements.txt. After troubleshooting, I updated with files above)
+**I.** Fix any errors.  
+   - If errors occur, review the logs for `main.py` and `requirements.txt`.  
+   - Troubleshoot and update files accordingly.
 
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/error.png)
 
-
-J. Save and redeploy. There should be all green checkmarks and no error logs if successful
+**J.** Save and redeploy again.  
+   - Ensure **all green checkmarks** appear.  
+   - There should be **no error logs** if successful.  
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/successful_deployment.jpg)
 
-**Step 5: Test the File Organizer**
-A. Navigate to Cloud Storage and click Buckets
-B. Open the tony-file-organizer-source bucket
-C. Click Upload
-D. Upload a document (pdf)
-E. Click the document folder to ensure the pdf automatically moved to the document folder. 
-F. Repeat steps D and E for video files, image files, and others. Ensure they automatically moved to the correct folders
 
+### Step 5: Test the File Organizer  
 
+**A.** Navigate to **Cloud Storage** and click **Buckets**.  
+**B.** Open the `tony-file-organizer-source` bucket.  
+**C.** Click **Upload**.  
+**D.** Upload a **document (PDF)**.  
+**E.** Click the **Documents** folder to ensure the PDF **automatically moved** to the correct folder.  
+**F.** Repeat **Steps D and E** for:  
+   - **Video files**  
+   - **Image files**  
+   - **Other file types**  
+   - Ensure all files **automatically move** to their respective folders.  
 
 ![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/working_document.png)
 
