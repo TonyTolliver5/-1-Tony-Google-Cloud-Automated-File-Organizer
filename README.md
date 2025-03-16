@@ -73,7 +73,7 @@ E. Paste the python script below:
 F. Go to the requirements.txt source code
 G. Paste this code below:
 
-![Image](https://github.com/user-attachments/assets/329525b0-d35f-415e-9c14-e30be741c3a7)
+![Image](https://raw.githubusercontent.com/TonyTolliver5/-1-Tony-Google-Cloud-Automated-File-Organizer/refs/heads/main/requirements_image.jpg)
 
 [View Requirements.txt] (https://github.com/TonyTolliver5/Anthony-Reprository/blob/main/requirements.txt)
 
